@@ -18,9 +18,9 @@ public class Character {
     private String name;
     private String catchphrase;
 
-    @ManyToMany
-    private List<Actor> actorList=new ArrayList<>();
+    @ManyToOne
+    private Actor actor;
 
-    @ManyToMany
-    private List<Show> showList = new ArrayList<>();
+    @ManyToOne
+    private Show show;
 }

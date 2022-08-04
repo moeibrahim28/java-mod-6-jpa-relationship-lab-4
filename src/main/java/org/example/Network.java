@@ -20,4 +20,5 @@ public class Network {
 
     @OneToMany(mappedBy = "id")
     private List<Show> showList = new ArrayList<>();
+
 }

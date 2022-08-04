@@ -88,8 +88,9 @@ public class Main {
         character1.setName("Michael Scott");
         character2.setName("Dan Gillick");
         character3.setName("Homer Simpson");
-        character1.getActorList().add(actor1);
-        character2.getActorList().add(actor6);
+        character1.setActor(actor1);
+        character2.setActor(actor1);
+        character3.setActor(actor6);
 
 
         show1.getCharacterList().add(character1);
@@ -101,7 +102,7 @@ public class Main {
         actor2.setFirst_name("Noah");
         actor2.setLast_name("Schnapp");
         character4.setName("Will Byers");
-        character4.getActorList().add(actor2);
+        character4.setActor(actor2);
         show3.getCharacterList().add(character4);
 
 
@@ -109,27 +110,27 @@ public class Main {
         actor3.setFirst_name("Finn");
         actor3.setLast_name("Wolfhard");
         character5.setName("Mike Wheeler");
-        character5.getActorList().add(actor3);
+        character5.setActor(actor3);
         show3.getCharacterList().add(character5);
 
 
         actor4.setFirst_name("Peter");
         actor4.setLast_name("Dinklage");
         character7.setName("Tyrion Lannister");
-        character7.getActorList().add(actor4);
+        character7.setActor(actor4);
         show4.getCharacterList().add(character7);
         character8.setName("Peter Dinklage");
-        character7.getActorList().add(actor4);
+        character8.setActor(actor4);
         show5.getCharacterList().add(character7);
 
 
         actor5.setFirst_name("Ted");
         actor5.setLast_name("Danson");
         character9.setName("D.B. Russell");
-        character9.getActorList().add(actor5);
+        character9.setActor(actor5);
         show6.getCharacterList().add(character9);
         character10.setName("Michael");
-        character10.getActorList().add(actor5);
+        character10.setActor(actor5);
         show7.getCharacterList().add(character10);
 
 

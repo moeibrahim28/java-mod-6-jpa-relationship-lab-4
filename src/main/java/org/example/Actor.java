@@ -18,6 +18,6 @@ public class Actor {
     private String first_name;
     private String last_name;
 
-    @OneToMany
+    @OneToMany(mappedBy = "id")
     private List<Character> characterList = new ArrayList<>();
 }
