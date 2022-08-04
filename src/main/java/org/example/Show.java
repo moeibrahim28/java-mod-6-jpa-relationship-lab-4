@@ -26,5 +26,4 @@ public class Show {
     @OneToMany(mappedBy = "show")
     private List<Character> characterList = new ArrayList<>();
 
-
 }

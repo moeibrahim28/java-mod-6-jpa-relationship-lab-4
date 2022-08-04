@@ -171,6 +171,15 @@ public class Main {
         actor5.getCharacterList().add(character10);
         actor6.getCharacterList().add(character3);
 
+        character1.setShow(show1);
+        character2.setShow(show2);
+        character3.setShow(show5);
+        character4.setShow(show1);
+        character5.setShow(show3);
+        character7.setShow(show4);
+        character8.setShow(show5);
+        character9.setShow(show6);
+        character10.setShow(show7);
 
 
 
@@ -184,7 +193,6 @@ public class Main {
         entityManager.persist(show5);
         entityManager.persist(show6);
         entityManager.persist(show7);
-
         entityManager.persist(actor1);
         entityManager.persist(actor2);
         entityManager.persist(actor3);
