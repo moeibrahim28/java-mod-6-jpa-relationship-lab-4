@@ -23,6 +23,8 @@ public class Show {
     @ManyToOne
     private Network network;
 
-    @OneToMany(mappedBy = "id")
+    @OneToMany(mappedBy = "show")
     private List<Character> characterList = new ArrayList<>();
+
+
 }

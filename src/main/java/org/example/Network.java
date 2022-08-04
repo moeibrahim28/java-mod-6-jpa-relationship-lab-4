@@ -18,7 +18,7 @@ public class Network {
     private String call_letters;
     private int channel;
 
-    @OneToMany(mappedBy = "id")
+    @OneToMany(mappedBy = "network")
     private List<Show> showList = new ArrayList<>();
 
 }

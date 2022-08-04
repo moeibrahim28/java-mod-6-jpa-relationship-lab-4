@@ -92,11 +92,14 @@ public class Main {
         character2.setActor(actor1);
         character3.setActor(actor6);
 
-
         show1.getCharacterList().add(character1);
+        show1.setCharacterList(show1.getCharacterList());
 
         show2.getCharacterList().add(character2);
         show2.getCharacterList().add(character3);
+        show2.setCharacterList(show2.getCharacterList());
+
+
 
 
         actor2.setFirst_name("Noah");
@@ -104,6 +107,7 @@ public class Main {
         character4.setName("Will Byers");
         character4.setActor(actor2);
         show3.getCharacterList().add(character4);
+        show3.setCharacterList(show3.getCharacterList());
 
 
 
@@ -112,6 +116,7 @@ public class Main {
         character5.setName("Mike Wheeler");
         character5.setActor(actor3);
         show3.getCharacterList().add(character5);
+        show3.setCharacterList(show3.getCharacterList());
 
 
         actor4.setFirst_name("Peter");
@@ -119,9 +124,11 @@ public class Main {
         character7.setName("Tyrion Lannister");
         character7.setActor(actor4);
         show4.getCharacterList().add(character7);
+        show4.setCharacterList(show4.getCharacterList());
         character8.setName("Peter Dinklage");
         character8.setActor(actor4);
         show5.getCharacterList().add(character7);
+        show5.setCharacterList(show5.getCharacterList());
 
 
         actor5.setFirst_name("Ted");
@@ -129,9 +136,11 @@ public class Main {
         character9.setName("D.B. Russell");
         character9.setActor(actor5);
         show6.getCharacterList().add(character9);
+        show6.setCharacterList(show6.getCharacterList());
         character10.setName("Michael");
         character10.setActor(actor5);
         show7.getCharacterList().add(character10);
+        show7.setCharacterList(show7.getCharacterList());
 
 
         network1.getShowList().add(show1);
@@ -142,7 +151,25 @@ public class Main {
         network4.getShowList().add(show7);
         network5.getShowList().add(show6);
 
+        show1.setNetwork(network1);
+        show2.setNetwork(network1);
+        show3.setNetwork(network2);
+        show4.setNetwork(network3);
+        show5.setNetwork(network4);
+        show7.setNetwork(network4);
+        show6.setNetwork(network5);
 
+
+
+        actor1.getCharacterList().add(character1);
+        actor1.getCharacterList().add(character2);
+        actor2.getCharacterList().add(character4);
+        actor3.getCharacterList().add(character6);
+        actor4.getCharacterList().add(character7);
+        actor4.getCharacterList().add(character8);
+        actor5.getCharacterList().add(character9);
+        actor5.getCharacterList().add(character10);
+        actor6.getCharacterList().add(character3);
 
 
 
